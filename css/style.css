@@ -1,0 +1,594 @@
+/*DEFAULT DESIGN FOR MOBILE*/
+
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+	/*FIRST SECTION*/
+
+.first-section-main-div {
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+/*Header*/
+.header-main-div {
+	width: 100%;
+	height: 80px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.69);
+	transition: height 1s, background-color 1s;
+}
+
+.header-scrolled {
+	height: 60px;
+	background-color: rgba(255, 255, 255, 0.36);
+	transition: height 1s, background-color 1s;
+}
+
+.header-content-container {
+	width: 85%;
+	margin-right: auto;
+	margin-left: 15px;
+
+	/*background-color: blue;*/
+	display: flex;
+}
+
+.menu-icon-img {
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 50%;
+	height: 80%;
+
+	transition: background-color 1s;
+}
+
+.menu-icon-img:hover {
+	background-color: rgb(83, 82, 114);
+	border-radius: 50%;
+
+	trasition: background-color 2s;
+}
+
+/*TEXT*/
+.header-text-main-container {
+	height: 100%;
+	width: 85%;
+	margin-left: 20px;
+	/*background-color: red;*/
+	display: flex;
+	align-items: center;
+}
+
+.navbar-links-container {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0;
+}
+
+.navbar-links-list-item {
+	float: left;
+	list-style: none;
+	text-align: center;
+	margin: 6px 10px;
+	color: white;
+	font-family: 'Frijole', cursive;
+	display: none;
+	text-decoration: none;
+	letter-spacing: 2px;
+}
+
+.contact {
+	display: inline;
+}
+
+.navbar-links:hover {
+	cursor: pointer;
+	color: #525578;
+	background-color: white;
+	text-decoration: none;
+	border-radius: 7px 3px;
+	transition: background-color 0.5s, color 0.6s;
+}
+
+/*About Me*/
+
+.about-me-main-div {
+	width: 100%;
+	background-color: #99a1c9;
+	border-top: 4px solid white;
+}
+
+.about-me-content-main-div {
+	width: 90%;
+	max-width: 800px;
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	/*background-color: white;*/
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.aboutme-subsection {
+	width: 100%;
+	height: 300px;
+	margin: 5px;
+	margin-top: 15px;
+	/*background-color: red;*/
+}
+
+.aboutme-logo-container {
+	width: 100%;
+	height: 90px;
+	/*background-color: black;*/
+	text-align: center;
+}
+
+.aboutme-logo {
+	height: 100%;
+}
+
+.aboutme-text-container {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.aboutme-text {
+	color: white;
+	font-family: 'Muli', sans-serif;
+	text-align: left;
+	max-width: 180px;
+	margin-left: auto;
+	margin-right: auto;
+	font-weight: bold;
+}
+
+
+/*Content*/
+.first-section-content-main-div {
+	height: 100vh;
+	background-color: rgb(236, 236, 236);
+	background-image: url('../img/stars.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+
+.first-section-text-div {
+	/*background-color: blue;*/
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+}
+
+.slogan {
+	font-size: 31px;
+	font-weight: lighter;
+	font-family: 'Freckle Face', cursive;
+	text-shadow: 3px 3px black;
+}
+
+.my-name {
+	font-size: 21px;
+	letter-spacing: 4px;
+	font-family: 'Muli', sans-serif;
+	text-shadow: -2px -4px #282f4c;
+	background-color: rgba(255, 255, 255, 0.29);
+	border-radius: 5px 15px;
+	margin-bottom: 10px;
+}
+
+.my-role {
+	color: #2e324f;
+	font-size: 15px;
+	letter-spacing: 2px;
+	font-family: 'Muli', sans-serif;
+	text-shadow: -2px 2px white;
+	background-color: rgba(255, 255, 255, 0.49);
+	border-radius: 5px 15px;
+	margin-top: 5px;
+}
+
+.portfolio-button {
+  background: #a3acd0;
+  background-image: -webkit-linear-gradient(top, #13151d, #4e4e68);
+  background-image: -moz-linear-gradient(top, #13151d, #4e4e68);
+  background-image: -ms-linear-gradient(top, #13151d, #4e4e68);
+  background-image: -o-linear-gradient(top, #13151d, #4e4e68);
+  background-image: linear-gradient(to bottom, #13151d, #4e4e68);
+  -webkit-border-radius: 26;
+  -moz-border-radius: 26;
+  border-radius: 26px;
+  font-family: 'Freckle Face', cursive;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 6px 13px 4px 14px;
+  text-decoration: none;
+  text-shadow: 0px -3px black;
+}
+
+.portfolio-button:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #212443, #c0c0d8);
+  background-image: -moz-linear-gradient(top, #212443, #c0c0d8);
+  background-image: -ms-linear-gradient(top, #212443, #c0c0d8);
+  background-image: -o-linear-gradient(top, #212443, #c0c0d8);
+  background-image: linear-gradient(to bottom, #212443, #c0c0d8);
+  text-decoration: none;
+}
+
+.portfolio-button:focus {
+	outline: 0;
+}
+
+
+	/*SECOND SECTION*/
+
+.second-section-main-div {
+	width: 100%;
+	background-color: rgb(83, 82, 114);
+}
+
+/*FIRST PROJECT MAIN DIV*/
+.project-main-div {
+	width: 100%;
+	background-color: #7a78b5;
+	border-top: 5px solid white;
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.project-img-container {
+/*	background-color: red;*/
+	width: 100%;
+	height: 250px;
+	margin-right: auto;
+	margin-left: auto;
+/*	border: 2px solid black;*/
+	text-align: center;
+	max-width: 500px;
+}
+
+.project-img {
+	width: 100%;
+	height: 100%;
+	border-radius: 15px;
+}
+
+.project-description-container {
+	background-color: #dcdbfb;
+	width: 100%;
+	max-width: 800px;
+	padding: 20px;
+	border-radius: 4%;
+	margin-left: auto;
+	margin-right: auto;
+	margin: 30px;
+}
+
+.project-description-logo-container {
+	height: 90px;
+	width: 90px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.project-description-logo {
+	width: 100%;
+	height: 100%;
+}
+
+.project-description {
+	text-align: justify;
+}
+
+.project-skills-container {
+	/*background-color: rgb(114, 50, 132);*/
+	width: 100%;
+	text-align: center;
+	padding: 20px;
+	color: black;
+	border-radius: 4%;
+
+}
+
+.project-skills-logo-container {
+	height: 90px;
+	width: 90px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.project-skills-logo {
+	width: 100%;
+	height: 100%;
+}
+
+.skills-list {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.skill {
+	color: white;
+	width: 40%;
+	background-color: rgba(0, 0, 0, 0.57);
+	box-shadow: 1px 3px 5px #dcdbfb;
+	border-radius: 15px;
+	margin: 7px;
+	padding: 3px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Frijole', cursive; /*CUSTOM FONT*/
+	cursor: pointer;
+}
+
+.first-project-main-div {
+
+}
+
+.second-project-main-div {
+	background-color: #8d9ae6;
+}
+
+.third-project-main-div {
+	background-color: #327d98;
+}
+
+.fourth-project-main-div {
+	background-color: #7b5dbb;
+}
+
+.fifth-project-main-div {
+
+}
+
+	/*MAP*/
+.map-container {
+	width: 100%;
+	height: 500px;
+	padding: 20px 0;
+	background-color: #001c4a;
+}
+
+#map {
+	width: 100%;
+	height: 100%;
+}
+
+.infowindow-div {
+	text-align: center;
+	font-family: 'Muli', sans-serif;
+}
+
+.infowindow-image {
+	max-height: 60px;
+	max-width: 20px;
+}
+
+.infowindow-text {
+	max-width: 150px;
+}
+
+/*==========================================
+FOOTER
+==========================================*/
+
+.footer-main-div {
+	background-color: black;
+	border-top: 2px solid white;
+	display: flex;
+}
+
+
+.contact-main-container {
+	width: 100%;
+	margin-left: auto;
+}
+
+.contact-title {
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	font-family: 'Frijole', cursive;
+}
+
+.contact-indiv-info {
+	font-size: 17px;
+	text-align: center;
+	color: white;
+	font-family: 'Muli', sans-serif;
+	font-weight: bold;
+	margin: 2px;
+}
+
+.contact-indiv-logo {
+	height: 40px;
+	width: 40px;
+	margin: 3px;
+}
+
+
+
+.attribution-main-container {
+	width: 100%;
+}
+
+.attribution-title {
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
+
+.attribution-info {
+	color: white;
+	text-align: center;
+	font-size: 10px;
+}
+
+
+
+
+
+
+
+
+
+/*==========================================
+MEDIA QUERIES
+==========================================*/
+
+/*For skills container*/
+@media screen and (max-width: 400px) {
+
+	.project-description-container {
+		margin: 0;
+		margin-top: 30px;
+	}
+	.skill {
+		width: 100%;
+	}
+
+	.footer-main-div {
+		flex-wrap: wrap;
+	}
+
+}
+
+/*For project image*/
+@media screen and (min-width: 610px) {
+	.project-img-container {
+		height: 360px;
+		max-width: 600px;
+	}
+
+	.contact-main-container {
+		width: 100%;
+		margin-left: auto;
+	}
+
+	.attribution-main-container {
+		width: 30%;
+	}
+}
+
+/*Etc*/
+
+@media screen and (min-width: 461px) {
+	.portfolio,
+	.contact {
+		display: inline;
+	}
+
+	.my-name {
+		font-size: 24px;
+	}
+
+	.slogan {
+		font-size: 45px;
+	}
+
+	.aboutme-logo-container {
+		height: 70px;
+	}
+
+}
+
+@media screen and (min-width: 560px) {
+	.aboutme-subsection {
+		width: 31%;
+	}
+}
+
+@media screen and (min-width: 900px){
+	.navbar-links-list-item {
+		display: inline;
+	}
+
+	.slogan {
+		font-size: 60px;
+	}
+
+	/*Project*/
+
+	.project-img-container {
+		width: 50%;
+		height: 420px;
+		margin: 0;
+	}
+
+	.project-description-container {
+		width: 45%;
+		max-height: 420px;
+		margin: 0;
+		margin-left: 15px;
+	}
+
+	.skill {
+		width: 30%;
+	}
+
+	.project-skills-logo-container {
+		margin: 20px auto;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.slogan {
+		font-size: 83px;
+	}
+
+	.my-name {
+		font-size: 29px;
+	}
+
+	.my-role {
+		font-size: 23px;
+	}
+
+	/*Project*/
+	.project-main-div {
+		align-items: center;
+	}
+
+	.project-img-container,
+	.project-description-container,
+	.project-skills-container {
+		width: 31%;
+	}
+
+	.project-img-container {
+		height: 350px;
+		margin: 20px;
+		box-shadow: -2px 3px 25px white;
+	}
+
+	.project-skills-logo-container {
+		margin: 5px auto;
+	}
+
+	.project-description-container {
+		max-height: none;
+		margin: 20px;
+	}
+
+	.skill {
+		width: 80%;
+	}
+}
+
+
+
