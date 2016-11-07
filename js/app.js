@@ -44,9 +44,9 @@ var map;
 
   //Locations array
   var locations = [
-	{title: "My Current Location", location: {lat:10.1579, lng:-67.9972}, description:'I currently live in Venezuela.', path: '../Personal Website 2/img/venezuela.png'},
-	{title: "My alma mater", location: {lat:37.3861, lng: -122.0839}, description: "I acquired critical Sillicon Valley skills in Front End Web Development through Udacity's Nanodegree, based in Mountain View, California.", path: '../Personal Website 2/img/udacity.png'},
- 	{title: 'Constant Learning', location:{lat:42.3736, lng: -71.1097}, description: "Learning is endless, and MITx has been a my introduction to the amazing world of algorithms. 99% score on their 'Introduction to computer science and programming' course and taking new courses every month",  path: '../Personal Website 2/img/mitx.png'}
+	{title: "My Current Location", location: {lat:10.1579, lng:-67.9972}, description:'I currently live in Venezuela.', path: '/img/venezuela.png'},
+	{title: "My alma mater", location: {lat:37.3861, lng: -122.0839}, description: "I acquired critical Sillicon Valley skills in Front End Web Development through Udacity's Nanodegree, based in Mountain View, California.", path: '/img/udacity.png'},
+ 	{title: 'Constant Learning', location:{lat:42.3736, lng: -71.1097}, description: "Learning is endless, and MITx has been a my introduction to the amazing world of algorithms. 99% score on their 'Introduction to computer science and programming' course and taking new courses every month",  path: '/img/mitx.png'}
  ];
 
 
