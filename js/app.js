@@ -23,6 +23,18 @@ $(document).ready(function(){
 });
 
 
+$(document).ready(function() {
+
+	function changeBackgroundOnLoad() {
+		$('.first-section-content-main-div').addClass('ready');
+	}
+
+	changeBackgroundOnLoad();
+
+});
+
+
+
 
 // MAP ------------------------------------------------------------------------------
 
