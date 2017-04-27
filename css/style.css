@@ -16,7 +16,7 @@ html, body {
 /*Header*/
 .header-main-div {
 	width: 100%;
-	height: 60px;
+	height: 80px;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -36,10 +36,7 @@ html, body {
 	margin-left: 15px;
 
 	/*background-color: blue;*/
-	display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
-  	display: -ms-flexbox;  /* TWEENER - IE 10 */
-  	display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
-  	display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+	display: flex;
 }
 
 .menu-icon-img {
@@ -64,18 +61,12 @@ html, body {
 	width: 85%;
 	margin-left: 20px;
 	/*background-color: red;*/
-	display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
-  	display: -ms-flexbox;  /* TWEENER - IE 10 */
-  	display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
-  	display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+	display: flex;
 	align-items: center;
 }
 
 .navbar-links-container {
-	display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
-  	display: -ms-flexbox;  /* TWEENER - IE 10 */
-  	display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
-  	display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+	display: flex;
 	flex-wrap: wrap;
 	padding: 0;
 }
@@ -120,10 +111,7 @@ html, body {
 	margin-left: auto;
 	margin-right: auto;
 	/*background-color: white;*/
-	display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
-  	display: -ms-flexbox;  /* TWEENER - IE 10 */
-  	display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
-  	display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+	display: flex;
 	flex-wrap: wrap;
 }
 
@@ -166,14 +154,12 @@ html, body {
 .first-section-content-main-div {
 	height: 100vh;
 	background-color: rgb(236, 236, 236);
-	background-image: url('../img/stars-small-min.jpg');
+	background-color: linear-gradient(#9700ff,#ff00a1,#5e6cb1);
+	background-image: url('../img/stars.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
-  	display: -ms-flexbox;  /* TWEENER - IE 10 */
-  	display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
-  	display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+	display: flex;
 	align-items: center;
 	text-align: center;
 }
@@ -259,10 +245,7 @@ html, body {
 	background-color: #7a78b5;
 	border-top: 5px solid white;
 	padding: 20px;
-	display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
-  	display: -ms-flexbox;  /* TWEENER - IE 10 */
-  	display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
-  	display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+	display: flex;
 	flex-wrap: wrap;
 }
 
@@ -336,10 +319,7 @@ html, body {
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
-	display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
-  	display: -ms-flexbox;  /* TWEENER - IE 10 */
-  	display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
-  	display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+	display: flex;
 	flex-wrap: wrap;
 }
 
@@ -411,10 +391,7 @@ FOOTER
 .footer-main-div {
 	background-color: black;
 	border-top: 2px solid white;
-	display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
-  	display: -ms-flexbox;  /* TWEENER - IE 10 */
-  	display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
-  	display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+	display: flex;
 }
 
 
@@ -534,10 +511,6 @@ MEDIA QUERIES
 @media screen and (min-width: 560px) {
 	.aboutme-subsection {
 		width: 31%;
-	}
-
-	.first-section-content-main-div {
-		background-image: url('../img/stars.jpg');
 	}
 }
 
