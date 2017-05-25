@@ -11,15 +11,7 @@ $(document).ready(function(){
 		$('.menu-icon-main-div').attr('height', '100%');
 
 	});
-
-	//TODO: TO OPEN DROPDOWN MENU ?????????????????????????????
-	$('.menu-icon-main-div').click(function(){
-
-			//Enter
-			$('.dropdown-content').toggleClass('dropdown-inactive');
-			$('.dropdown-content').toggleClass('dropdown-active');
-		}
-	);
+	
 });
 
 
@@ -124,7 +116,7 @@ map.fitBounds(bounds);
 }
 
 function googleMapsFailed() {
-	alert("Sorry, I couldn't load Google Maps")
+	alert("Sorry, I couldn't load Google Maps");
 }
 
 

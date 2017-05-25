@@ -114,7 +114,7 @@ html, body {
 
 .about-me-main-div {
 	width: 100%;
-	background-color: #99a1c9;
+	background-color: #8aacc0;
 	border-top: 4px solid white;
 }
 
@@ -185,7 +185,8 @@ html, body {
 }
 
 .ready {
-	background-image: url('../img/stars.jpg');
+	background-image: url('../img/laptop_main.jpg');
+	background-size: cover;
 }
 
 .first-section-text-div {
@@ -203,7 +204,7 @@ html, body {
 }
 
 .my-name {
-	font-size: 21px;
+	font-size: 30px;
 	letter-spacing: 4px;
 	font-family: 'Muli', sans-serif;
 	text-shadow: -2px -4px #282f4c;
@@ -255,10 +256,23 @@ html, body {
 	background-color: rgb(83, 82, 114);
 }
 
+.section-title-container {
+	width: 100%;
+}
+
+.section-title-text {
+	width: 100%;
+	text-align: center;
+	color: white;
+	margin: 0;
+    border-top: 5px solid white;
+    letter-spacing: 2px;
+}
+
 /*FIRST PROJECT MAIN DIV*/
 .project-main-div {
 	width: 100%;
-	background-color: #7a78b5;
+	background-color: #5094ba;
 	border-top: 5px solid white;
 	padding: 20px;
 	display: -webkit-box;
@@ -269,12 +283,11 @@ html, body {
 }
 
 .project-img-container {
-/*	background-color: red;*/
 	width: 100%;
+	border-radius: 17%;
 	height: 250px;
 	margin-right: auto;
 	margin-left: auto;
-/*	border: 2px solid black;*/
 	text-align: center;
 	max-width: 500px;
 	background-color: rgb(60, 60, 86);
@@ -287,7 +300,8 @@ html, body {
 }
 
 .project-description-container {
-	background-color: #dcdbfb;
+	background-color: white;
+	box-shadow: inset 0px 4px 14px 3px #22163c;
 	width: 100%;
 	max-width: 800px;
 	padding: 20px;
@@ -333,6 +347,8 @@ html, body {
 .project-skills-logo {
 	width: 100%;
 	height: 100%;
+	background-color: rgb(255, 255, 255);
+    border-radius: 30%;
 }
 
 .skills-list {
@@ -349,7 +365,7 @@ html, body {
 .skill {
 	color: white;
 	width: 40%;
-	background-color: rgba(0, 0, 0, 0.57);
+	background-color: black;
 	box-shadow: 1px 3px 5px #dcdbfb;
 	border-radius: 15px;
 	margin: 7px;
@@ -365,21 +381,24 @@ html, body {
 }
 
 .second-project-main-div {
-	background-color: #8d9ae6;
+	background-color: #77aecd;
 }
 
 .third-project-main-div {
-	background-color: #327d98;
+	background-color: #5094ba;
 }
 
 .fourth-project-main-div {
-	background-color: #7b5dbb;
+	background-color: #77aecd;
 }
 
 .fifth-project-main-div {
-
+	background-color: #5094ba;
 }
 
+.sixth-project-main-div {
+	background-color: #77aecd;
+}
 	/*MAP*/
 .map-container {
 	width: 100%;
@@ -559,7 +578,6 @@ MEDIA QUERIES
 
 	.project-description-container {
 		width: 45%;
-		max-height: 420px;
 		margin: 0;
 		margin-left: 15px;
 	}
