@@ -187,6 +187,7 @@ html, body {
 .ready {
 	background-image: url('../img/laptop_main.jpg');
 	background-size: cover;
+	background-position: center center;
 }
 
 .first-section-text-div {
